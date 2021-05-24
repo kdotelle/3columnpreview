@@ -5,3 +5,19 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+.card-img-top {
+  width: 18rem;
+}
+
+.sedan {
+  background-color: rgb(225, 134, 37);
+}
+
+.suv {
+  background-color: rgb(9, 106, 114);
+}
+
+.luxury {
+  background-color: rgb(3, 65, 63);
+}

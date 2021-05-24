@@ -9,17 +9,20 @@
 .card-img-top {
   width: 25%;
   margin: 50px;
-}
-
-.card {
-  height: 100%;
-  width: 100%;
+  margin-bottom: 30px;
 }
 
 .container {
-  display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-content: center;
+  align-items: center;
+}
+
+.card-group {
+  height: 100%;
+  width: auto;
+  margin-top: 50px;
+  justify-content: center;
 }
 
 #sedan {
@@ -34,9 +37,16 @@
   background-color: rgb(3, 65, 63);
 }
 
-h1,
 p {
+  font-family: "Roboto", sans-serif;
   color: rgb(242, 242, 242);
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  color: rgb(242, 242, 242);
+  margin-bottom: 50px;
 }
 
 .btn {

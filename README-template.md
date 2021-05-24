@@ -52,7 +52,7 @@ Based on the sample image, I felt bootstrap would be a great tool to get the des
 
 Once I got the basic cards setup with the title, image, and paragraph I used the color picker extension on google chrome to get the colors correct.
 
-I found the spacing between the cards to be a challenge. There's spacing between each card that I wanted to get rid of.
+I found the spacing between the cards to be a challenge. There's spacing between each card that I wanted to get rid of. I was using col which was adding the spacing. When I removed the `<div col-sm-4> </div>` and instead used the ``<div class="card-body"></div>, I got the desired effect. It removed the margins.
 
 ### Built with
 

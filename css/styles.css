@@ -7,17 +7,41 @@
 }
 
 .card-img-top {
-  width: 18rem;
+  width: 25%;
+  margin: 50px;
 }
 
-.sedan {
+.card {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+#sedan {
   background-color: rgb(225, 134, 37);
 }
 
-.suv {
+#suv {
   background-color: rgb(9, 106, 114);
 }
 
-.luxury {
+#luxury {
   background-color: rgb(3, 65, 63);
+}
+
+h1,
+p {
+  color: rgb(242, 242, 242);
+}
+
+.btn {
+  border-radius: 15%;
+  padding: 10px;
+  margin: 50px;
+  margin-left: 10px;
 }
